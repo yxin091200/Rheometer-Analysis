@@ -8,7 +8,6 @@ st.title("流变仪材料测试数据对比分析")
 
 
 # 2. 加载数据 (修改为：动态读取外部同级目录下的 Excel 文件)
-@st.cache_data
 def load_data():
     import os
     import sys
